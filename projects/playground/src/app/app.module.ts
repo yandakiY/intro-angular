@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HighLightDirective } from './highlight.directive';
 import { NoOpenDirective } from './noopen.directive';
 import { ConfirmDirective } from './confirm.directive';
+import { UserProfileComponent } from './user-profile.component';
 
 @NgModule({
   declarations: [
-    AppComponent , HighLightDirective , NoOpenDirective, ConfirmDirective
+    AppComponent , HighLightDirective , NoOpenDirective, ConfirmDirective, UserProfileComponent
   ],
   imports: [
     BrowserModule,
